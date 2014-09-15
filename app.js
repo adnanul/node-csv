@@ -2,14 +2,13 @@
 var fs = require('fs');
 
 
-
-
-var myfile = "myfile.txt";
-
-if(fs.existsSync(myfile)) {
-    var content = fs.readFileSync(myfile, 'utf8');
-    fs.writeFileSync(myfile, content.toUpperCase());
-    console.log("Done");
-} else {
-    console.log("File does not exist - " + myfile);
+function csvReader(file){
+	if(fs.existsSync(file)) {
+		var content = fs.readFileSync(file, 'utf8');    	
+    	console.log("Done"+ content);
+	}else{
+		throw "File is missing.";
+	}
 }
+
+csvReader("test.txt");
