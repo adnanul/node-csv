@@ -1,0 +1,4 @@
+{
+    "file_type": [{"Name": "csv"},{"Name": "json"},{"Name": "xml"}],
+    "export_type": [{"Name": "json"}]
+}
