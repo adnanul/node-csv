@@ -5,9 +5,10 @@ var config = require('./helper/config');
 
 function csvReader(file){	
 	if(fs.existsSync(file)) {
-		var content = fs.readFileSync(file, 'utf8');    	
-    	content = content.trim().split(",");
-    	content = formattingArray(content);
+		var content = fs.readFileSync(file, 'utf8');   
+		content = csvToJSON(content);
+    	//content = content.trim().split(",");
+    	//content = formattingArray(content);
     	console.log(content);
 	}else{
 		throw "File is missing.";
@@ -28,6 +29,28 @@ function setConfig(file_name,type,export_type){
 	config.setExportType(export_type);
 }
 
+//for converting csv to json...
+function csvToJSON(csvData){
+	 var content = csvData.split(/\r\n|\n/);
+     var result = [];
+ 
+     var headers=content[0].split(",");
+ 
+     for(var i=1;i<content.length;i++){
+ 
+		 var obj = {};
+		 var currentline=content[i].split(",");
+	 
+		 for(var j=0;j<headers.length;j++){
+			  obj[headers[j]] = currentline[j];
+		 }
+ 
+	result.push(obj);
+ 
+  }  
+  return result;
+  //return JSON.stringify(result);
+}
 
 setConfig("test.csv","csv","json");
 
