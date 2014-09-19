@@ -1,6 +1,6 @@
 {
-  "name": "node-csv",
-  "version": "0.0.0",
+  "name": "node-csv-data",
+  "version": "1.0.4",
   "description": "Me and Dip created this as a first project. we will be updating this module day by day.",
   "main": "app.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "keywords": [
     "csv"
   ],
-  "author": "Feroj Bepari <feroj21@gmail.com>",
+  "author": "Md Feroj Bepari <feroj21@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/feroj21/node-csv/issues"

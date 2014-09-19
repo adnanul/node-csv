@@ -19,7 +19,7 @@ exports.setFileName = function(name) {
 	file_name = name;
 };
 exports.setFileType = function(type) {	
-	typeContent = JSON.parse(fs.readFileSync("./helper/support.json"));
+	typeContent = JSON.parse(fs.readFileSync("./node_modules/node-csv-data/helper/support.json"));
 	var avail_file_type = typeContent.file_type;
 	if(checkSupportType(avail_file_type, type)){
 		file_type = type;
@@ -29,7 +29,7 @@ exports.setFileType = function(type) {
 	}
 };
 exports.setExportType = function(export_type) {
-	typeContent = JSON.parse(fs.readFileSync("./helper/support.json"));
+	typeContent = JSON.parse(fs.readFileSync("./node_modules/node-csv-data/helper/support.json"));
 	var avail_export_type = typeContent.export_type;
 	if(checkSupportType(avail_export_type, export_type)){
 		export_type = export_type;

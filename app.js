@@ -3,7 +3,7 @@ var fs = require('fs');
 var config = require('./helper/config');
 
 
-function csvReader(file){	
+function fileReader(file_name){	
 	if(fs.existsSync(file)) {
 		var content = fs.readFileSync(file, 'utf8');   
 		content = csvToJSON(content);
@@ -13,11 +13,11 @@ function csvReader(file){
 	}
 }
 
-function setConfig(file_name,type,export_type){
-	config.setFileName(file_name);
-	config.setFileType(type);
-	config.setExportType(export_type);
-}
+// function setConfig(file_name,type,export_type){
+// 	config.setFileName(file_name);
+// 	config.setFileType(type);
+// 	config.setExportType(export_type);
+// }
 
 //for converting csv to json...
 function csvToJSON(csvData){
@@ -40,7 +40,7 @@ function csvToJSON(csvData){
   return result;
 }
 
-exports.setConfig = setConfig;
+// exports.setConfig = setConfig;
 //setConfig("test.csv","csv","json");
-exports.csvReader = csvReader;
+exports.fileReader = fileReader;
 //csvReader(config.getFileName());
