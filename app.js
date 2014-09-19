@@ -4,8 +4,8 @@ var config = require('./helper/config');
 
 
 function fileReader(file_name){	
-	if(fs.existsSync(file)) {
-		var content = fs.readFileSync(file, 'utf8');   
+	if(fs.existsSync(file_name)) {
+		var content = fs.readFileSync(file_name, 'utf8');   
 		content = csvToJSON(content);
     	return content;
 	}else{

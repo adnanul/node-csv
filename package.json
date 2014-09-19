@@ -1,6 +1,6 @@
 {
   "name": "node-csv-data",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Me and Dip created this as a first project. we will be updating this module day by day.",
   "main": "app.js",
   "scripts": {
