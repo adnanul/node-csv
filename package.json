@@ -1,0 +1,22 @@
+{
+  "name": "node-csv",
+  "version": "0.0.0",
+  "description": "Me and Dip created this as a first project. we will be updating this module day by day.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feroj21/node-csv.git"
+  },
+  "keywords": [
+    "csv"
+  ],
+  "author": "Feroj Bepari <feroj21@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feroj21/node-csv/issues"
+  },
+  "homepage": "https://github.com/feroj21/node-csv"
+}

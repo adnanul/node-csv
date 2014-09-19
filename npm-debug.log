@@ -1,0 +1,135 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'F:\\nodejs\\\\node.exe',
+1 verbose cli   'F:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   '.' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.31
+4 verbose node symlink F:\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\feroj21\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\feroj21\\AppData\\Local\\Temp\\npm-4800-kaRMVaA4\\1411117573499-0.8109282504301518\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\feroj21\AppData\Local\Temp\npm-4800-kaRMVaA4\1411117573499-0.8109282504301518\tmp.tgz
+13 verbose folder .
+14 info prepublish node-csv@0.0.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\feroj21\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 5b16dbff-73499-0-8109282504301518-tmp-tgz tar://C:\Users\feroj21\AppData\Local\Temp\npm-4800-kaRMVaA4\1411117573499-0.8109282504301518\tmp.tgz
+18 verbose lock tar://C:\Users\feroj21\AppData\Local\Temp\npm-4800-kaRMVaA4\1411117573499-0.8109282504301518\tmp.tgz C:\Users\feroj21\AppData\Roaming\npm-cache\5b16dbff-73499-0-8109282504301518-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 5b16dbff-73499-0-8109282504301518-tmp-tgz tar://C:\Users\feroj21\AppData\Local\Temp\npm-4800-kaRMVaA4\1411117573499-0.8109282504301518\tmp.tgz
+22 silly lockFile 5b16dbff-73499-0-8109282504301518-tmp-tgz tar://C:\Users\feroj21\AppData\Local\Temp\npm-4800-kaRMVaA4\1411117573499-0.8109282504301518\tmp.tgz
+23 verbose tar unpack C:\Users\feroj21\AppData\Local\Temp\npm-4800-kaRMVaA4\1411117573499-0.8109282504301518\tmp.tgz
+24 silly lockFile 0d1663e5-npm-cache-node-csv-0-0-0-package tar://C:\Users\feroj21\AppData\Roaming\npm-cache\node-csv\0.0.0\package
+25 verbose lock tar://C:\Users\feroj21\AppData\Roaming\npm-cache\node-csv\0.0.0\package C:\Users\feroj21\AppData\Roaming\npm-cache\0d1663e5-npm-cache-node-csv-0-0-0-package.lock
+26 silly lockFile 5b16dbff-73499-0-8109282504301518-tmp-tgz tar://C:\Users\feroj21\AppData\Local\Temp\npm-4800-kaRMVaA4\1411117573499-0.8109282504301518\tmp.tgz
+27 verbose lock tar://C:\Users\feroj21\AppData\Local\Temp\npm-4800-kaRMVaA4\1411117573499-0.8109282504301518\tmp.tgz C:\Users\feroj21\AppData\Roaming\npm-cache\5b16dbff-73499-0-8109282504301518-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+33 silly gunzTarPerm extractEntry app.js
+34 silly gunzTarPerm modified mode [ 'app.js', 438, 420 ]
+35 silly gunzTarPerm extractEntry helper/config.js
+36 silly gunzTarPerm modified mode [ 'helper/config.js', 438, 420 ]
+37 silly gunzTarPerm extractEntry helper/support.json
+38 silly gunzTarPerm modified mode [ 'helper/support.json', 438, 420 ]
+39 silly gunzTarPerm extractEntry test.csv
+40 silly gunzTarPerm modified mode [ 'test.csv', 438, 420 ]
+41 silly lockFile 0d1663e5-npm-cache-node-csv-0-0-0-package tar://C:\Users\feroj21\AppData\Roaming\npm-cache\node-csv\0.0.0\package
+42 silly lockFile 0d1663e5-npm-cache-node-csv-0-0-0-package tar://C:\Users\feroj21\AppData\Roaming\npm-cache\node-csv\0.0.0\package
+43 silly lockFile 5b16dbff-73499-0-8109282504301518-tmp-tgz tar://C:\Users\feroj21\AppData\Local\Temp\npm-4800-kaRMVaA4\1411117573499-0.8109282504301518\tmp.tgz
+44 silly lockFile 5b16dbff-73499-0-8109282504301518-tmp-tgz tar://C:\Users\feroj21\AppData\Local\Temp\npm-4800-kaRMVaA4\1411117573499-0.8109282504301518\tmp.tgz
+45 silly lockFile 3a52ce78- .
+46 silly lockFile 3a52ce78- .
+47 silly publish { name: 'node-csv',
+47 silly publish   version: '0.0.0',
+47 silly publish   description: 'Me and Dip created this as a first project. we will be updating this module day by day.',
+47 silly publish   main: 'app.js',
+47 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+47 silly publish   repository: { type: 'git', url: 'https://github.com/feroj21/node-csv.git' },
+47 silly publish   keywords: [ 'csv' ],
+47 silly publish   author: { name: 'Feroj Bepari', email: 'feroj21@gmail.com' },
+47 silly publish   license: 'ISC',
+47 silly publish   bugs: { url: 'https://github.com/feroj21/node-csv/issues' },
+47 silly publish   homepage: 'https://github.com/feroj21/node-csv',
+47 silly publish   readme: 'node-csv\r\n========\r\n\r\nA simple csv read/write module for Nodejs. This is our first Nodejs project to deploy as npm by Feroj and Dip\r\n',
+47 silly publish   readmeFilename: 'README.md',
+47 silly publish   _id: 'node-csv@0.0.0',
+47 silly publish   _shasum: '590f5e49b3c89f435d8272958a613c7531948c65',
+47 silly publish   _from: '.' }
+48 verbose url raw node-csv
+49 verbose url resolving [ 'https://registry.npmjs.org/', './node-csv' ]
+50 verbose url resolved https://registry.npmjs.org/node-csv
+51 info trying registry request attempt 1 at 15:06:13
+52 http PUT https://registry.npmjs.org/node-csv
+53 http 403 https://registry.npmjs.org/node-csv
+54 verbose headers { date: 'Fri, 19 Sep 2014 09:06:20 GMT',
+54 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+54 verbose headers   'content-type': 'application/json',
+54 verbose headers   'cache-control': 'max-age=60',
+54 verbose headers   'content-length': '941',
+54 verbose headers   'accept-ranges': 'bytes',
+54 verbose headers   via: '1.1 varnish',
+54 verbose headers   'x-served-by': 'cache-fra1222-FRA',
+54 verbose headers   'x-cache': 'MISS',
+54 verbose headers   'x-cache-hits': '0',
+54 verbose headers   'x-timer': 'S1411117580.189170,VS0,VE185',
+54 verbose headers   'keep-alive': 'timeout=10, max=50',
+54 verbose headers   connection: 'Keep-Alive' }
+55 error publish Failed PUT 403
+56 error Error: forbidden user: feroj21 not authorized to modify node-csv
+56 error Changed: description "A CSV parser for node.js" -> "Me and Dip created this as a first project. we will be updating this module day by day."
+56 error Changed: dist-tags.latest "0.1.2" -> "0.0.0"
+56 error Added: versions.0.0.0
+56 error Changed: author.name "Chris O'Hara" -> "Feroj Bepari"
+56 error Changed: author.email "cohara87@gmail.com" -> "feroj21@gmail.com"
+56 error Changed: time.modified "2011-09-19T11:44:46.997Z" -> "2014-09-19T09:04:17.263Z"
+56 error Added: time.0.0.0
+56 error Changed: readme "" -> "node-csv\u000d\u000a========\u000d\u000a\u000d\u000aA simple csv read/write module for Nodejs. This is our first Nodejs project to deploy as npm by Feroj and Dip\u000d\u000a"
+56 error Changed: readmeFilename "" -> "README.md"
+56 error Deleted: keywords.1
+56 error Deleted: keywords.2
+56 error Deleted: keywords.3
+56 error Added: repository
+56 error Added: homepage
+56 error Added: bugs
+56 error Added: license
+56 error Added: _attachments: node-csv
+56 error     at RegClient.<anonymous> (F:\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:273:14)
+56 error     at Request._callback (F:\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:211:65)
+56 error     at Request.self.callback (F:\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
+56 error     at Request.emit (events.js:98:17)
+56 error     at Request.<anonymous> (F:\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
+56 error     at Request.emit (events.js:117:20)
+56 error     at IncomingMessage.<anonymous> (F:\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
+56 error     at IncomingMessage.emit (events.js:117:20)
+56 error     at _stream_readable.js:943:16
+56 error     at process._tickCallback (node.js:419:13)
+57 error If you need help, you may report this *entire* log,
+57 error including the npm and node versions, at:
+57 error     <http://github.com/npm/npm/issues>
+58 error System Windows_NT 6.2.9200
+59 error command "F:\\nodejs\\\\node.exe" "F:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "."
+60 error cwd F:\nodejs\projects\node-csv
+61 error node -v v0.10.31
+62 error npm -v 1.4.9
+63 verbose exit [ 1, true ]

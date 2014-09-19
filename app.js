@@ -7,20 +7,10 @@ function csvReader(file){
 	if(fs.existsSync(file)) {
 		var content = fs.readFileSync(file, 'utf8');   
 		content = csvToJSON(content);
-    	//content = content.trim().split(",");
-    	//content = formattingArray(content);
-    	console.log(content);
+    	return content;
 	}else{
 		throw "File is missing.";
 	}
-}
-
-function formattingArray(content){
-	var result = {};
-	for (var i = 0; i < content.length; i++) {
-		result[content[0]] = "Feroj";				
-	};
-	return result;
 }
 
 function setConfig(file_name,type,export_type){
@@ -45,13 +35,12 @@ function csvToJSON(csvData){
 			  obj[headers[j]] = currentline[j];
 		 }
  
-	result.push(obj);
- 
+	result.push(obj); 
   }  
   return result;
-  //return JSON.stringify(result);
 }
 
-setConfig("test.csv","csv","json");
-
-csvReader(config.getFileName());
+exports.setConfig = setConfig;
+//setConfig("test.csv","csv","json");
+exports.csvReader = csvReader;
+//csvReader(config.getFileName());
