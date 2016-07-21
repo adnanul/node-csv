@@ -1,5 +1,7 @@
 [![npm version](https://badge.fury.io/js/node-csv-data.svg)](https://badge.fury.io/js/node-csv-data)
 
+[![NPM](https://nodei.co/npm/node-csv-data.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/node-csv-data/)
+
 node-csv
 ========
 
