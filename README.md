@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/node-csv-data.svg)](https://badge.fury.io/js/node-csv-data)
+
 node-csv
 ========
 
